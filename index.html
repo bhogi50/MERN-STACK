@@ -1,8 +1,55 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Git</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        
+        td,table {
+
+	    text-align:center;	    
+            border-collapse: collapse;
+            border:2px solid black;
+	    width: 650px;
+            height: 60px;
+            margin: auto;
+            padding: 60 px;
+        }
+	
+    </style>
 </head>
 <body>
-    <p>HI Hello</p>
+    <table align="center">
+        <caption font-family:Arial, sans-serif; font-weight:400; style="padding-bottom: 10px;">Health Chart</caption>
+            <tr>
+                <td rowspan="2">State of Health</td>
+                <td colspan="2">Fasting Value</td>
+                <td>After Eating</td>
+            </tr>     
+            <tr>
+                <td>Minimum</td>
+                <td>Maximum</td>
+                <td>2 hours after eating</td>
+            </tr>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+    </table>
 </body>
 </html>
